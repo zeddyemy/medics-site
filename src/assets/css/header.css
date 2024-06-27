@@ -101,6 +101,24 @@
     font-size: 25px;
 }
 
+
+.menu nav {
+    display: none;
+    gap: 25px;
+}
+.menu nav a {
+    color: #000;
+}
+.menu nav a:hover {
+    border-bottom: 1px solid #000;
+}
+@media screen and (min-width: 860px) {
+    .menu nav {
+        display: flex;
+        gap: 25px;
+    }
+}
+
 .header-c>nav {
     position: fixed;
     top: 0;
@@ -336,7 +354,7 @@ li.menu-item-has-children ul.sub-menu.active {
 }
 @media screen and (min-width: 1025px) {
     .header-c>.logo {
-        flex: 1;
+        flex: -1;
         font-size: 29px;
     }
     .header-c .menuBtn {

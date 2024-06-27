@@ -31,7 +31,17 @@ const Header = () => {
 						</a>
 					</div>
 
-					<div className="menu flex flexCenter"></div>
+					<div className="menu flex flexCenter">
+						<nav>
+							<a href="#hero-header"> Home </a>
+							<a href="#services"> Services </a>
+							<a href="#about"> About </a>
+							<a href="#reviews"> Review </a>
+							<a href="#goal"> Mission </a>
+							<a href="#newsletter"> Newsletter </a>
+						</nav>
+					</div>
+
 					<div className="actionBtns flex flexCenter">
 						<span className="btn pill plainBtn"> Log in </span>
 						<span className="btn pill"> Sign Up </span>
